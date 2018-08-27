@@ -1,11 +1,19 @@
 <root>
 	<Properties>
+    <PlayerName>
+      <Type> UNICODE</Type>
+      <Flags>BASE_AND_CLIENT</Flags>
+      <Persistent>true</Persistent>
+    </PlayerName>
 	</Properties>
 
 	<ClientMethods>
 	</ClientMethods>
 
 	<BaseMethods>
+    <baseCallTest>
+      <Exposed/>
+    </baseCallTest>
 	</BaseMethods>
 
 	<CellMethods>

@@ -26,3 +26,6 @@ def WARNING_MSG(*args):
 def ERROR_MSG(*args): 
 	KBEngine.scriptLogType(KBEngine.LOG_TYPE_ERR)
 	printMsg(args, True)
+
+
+

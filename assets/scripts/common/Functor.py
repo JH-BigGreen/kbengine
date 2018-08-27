@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 """
 用法:
 a = 1
@@ -17,5 +16,5 @@ class Functor:
 		self.args = args
 
 	def __call__(self, *args):
-		self.func(*(self.args + args))
+		self.func(*(self.args + args))		
 		
